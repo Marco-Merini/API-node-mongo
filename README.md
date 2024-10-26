@@ -20,8 +20,8 @@ Uma API RESTful que permite realizar operações CRUD (Create, Read, Update, Del
 
 1. Clone o repositório:
    ```bash
-   git clone [url-do-seu-repositorio]
-   cd [nome-do-seu-diretorio]
+   git clone https://github.com/Marco-Merini/API-node-mongo.git
+   cd API-node-mongo
    ```
 
 2. Instale as dependências:
@@ -34,11 +34,6 @@ Uma API RESTful que permite realizar operações CRUD (Create, Read, Update, Del
    * Adicione sua string de conexão MongoDB:
    ```env
    DATABASE_URL="sua-string-de-conexao-mongodb"
-   ```
-
-4. Execute as migrações do Prisma:
-   ```bash
-   npx prisma generate
    ```
 
 ## 🎮 Rodando o Projeto
