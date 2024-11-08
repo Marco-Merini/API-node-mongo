@@ -82,28 +82,6 @@ body: {
 DELETE /users/:id
 ```
 
-## 📝 Estrutura do Projeto
-
-```
-├── node_modules
-├── prisma
-│   └── schema.prisma
-├── package.json
-├── server.js
-└── .env
-```
-
-## 🔍 Schema do Usuário
-
-```prisma
-model User {
-  id      String   @id @default(auto()) @map("_id") @db.ObjectId
-  email   String   @unique
-  name    String
-  age     String
-}
-```
-
 ## 📦 Dependências Principais
 
 ```json
