@@ -1,4 +1,4 @@
-# API CRUD com Node.js, Express e Prisma
+# API CRUD
 
 Uma API RESTful que permite realizar operações CRUD (Create, Read, Update, Delete) de usuários, utilizando Node.js com Express como framework e Prisma como ORM para conexão com MongoDB.
 
