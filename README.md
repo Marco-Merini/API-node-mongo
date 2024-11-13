@@ -81,25 +81,3 @@ body: {
 ```http
 DELETE /users/:id
 ```
-
-## 📦 Dependências Principais
-
-```json
-{
-  "@prisma/client": "^5.21.1",
-  "express": "^4.21.1",
-  "prisma": "^5.21.1"
-}
-```
-
-## 🤝 Como Contribuir
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`)
-4. Faça push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
-## ✨ Autor
-
-Feito por Marco Leone Merini.
